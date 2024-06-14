@@ -29,7 +29,7 @@ Para instalar y ejecutar este proyecto:
 4. Ejecuta las migraciones: `rails db:migrate`
 5. Inicia el servidor: `rails server`
 
-Abrir en el navegador `localhost:3000` para ver la aplicación en acción.
+Abrir en el navegador `localhost:3000/personas` para ver la aplicación en acción.
 
 
 ## Nota
