@@ -15,5 +15,5 @@ Este proyecto es un desafío de Ruby on Rails que implementa un sistema de gesti
 
 5. **Ordenación por mes de nacimiento**: La lista de personas se puede ordenar por mes de nacimiento, independientemente del año de nacimiento.
 
-6. ## Nota
-7. Los archivos se encuentran en la rama **master**.
+## Nota
+Los archivos se encuentran en la rama **master**.
