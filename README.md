@@ -17,3 +17,7 @@ Este proyecto es un desafío de Ruby on Rails que implementa un sistema de gesti
 
 ## Nota
 Los archivos se encuentran en la rama **master**.
+
+-> Versión de Ruby: 3.3.2
+-> Versión de Rails: 7.1.3.4
+-> Versión de SQLite3: 3.42.0
