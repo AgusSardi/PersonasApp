@@ -15,6 +15,19 @@ Este proyecto es un desafío de Ruby on Rails que implementa un sistema de gesti
 
 5. **Ordenación por mes de nacimiento**: La lista de personas se puede ordenar por mes de nacimiento, independientemente del año de nacimiento.
 
+## Instalación
+
+Para instalar y ejecutar este proyecto:
+
+1. Clona el repositorio: `git clone https://github.com/tu_usuario/tu_repositorio.git`
+2. Navega al directorio del proyecto: `cd tu_repositorio`
+3. Instala las dependencias: `bundle install`
+4. Ejecuta las migraciones: `rails db:migrate`
+5. Inicia el servidor: `rails server`
+
+Abrir en el navegador `localhost:3000` para ver la aplicación en acción.
+
+
 ## Nota
 Los archivos se encuentran en la rama **master**.
 
