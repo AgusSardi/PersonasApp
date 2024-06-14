@@ -1,0 +1,53 @@
+# Mensajes en Español
+
+es:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "La validación falló: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "No se puede eliminar el registro porque existe %{record}"
+          has_many: "No se puede eliminar el registro porque existen %{record}"
+
+    attributes:
+      persona:
+        nombre: "Nombre"
+        apellido: "Apellido"
+        fecha_nacimiento: "Fecha de nacimiento"
+        nro_dni: "DNI"
+
+    models:
+      persona: "Persona"
+
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: "debe ser aceptado"
+      blank: "no puede estar en blanco"
+      present: "debe estar en blanco"
+      confirmation: "no coincide con la confirmación"
+      empty: "no puede estar vacío"
+      equal_to: "debe ser igual a %{count}"
+      even: "debe ser par"
+      exclusion: "está reservado"
+      greater_than: "debe ser mayor que %{count}"
+      greater_than_or_equal_to: "debe ser mayor o igual a %{count}"
+      inclusion: "no está incluido en la lista"
+      invalid: "es inválido"
+      less_than: "debe ser menor que %{count}"
+      less_than_or_equal_to: "debe ser menor o igual a %{count}"
+      model_invalid: "La validación falló: %{errors}"
+      not_a_number: "no es un número"
+      not_an_integer: "debe ser un entero"
+      odd: "debe ser impar"
+      required: "es requerido"
+      taken: "ya ha sido tomado"
+      too_long:
+        one: "es demasiado largo (no más de 1 carácter)"
+        other: "es demasiado largo (no más de %{count} caracteres)"
+      too_short:
+        one: "es demasiado corto (al menos 1 carácter)"
+        other: "es demasiado corto (al menos %{count} caracteres)"
+      wrong_length:
+        one: "no tiene la longitud correcta (debe ser de 1 carácter)"
+        other: "no tiene la longitud correcta (debe ser de %{count} caracteres)"

@@ -1,0 +1,39 @@
+
+<h1>Detalles de la Persona</h1>
+
+<!-- Modifico este archivo para que el display de las personas sea más adecuado -->
+
+<div class="persona-details">
+  <h2><%= @persona.nombre %> <%= @persona.apellido %></h2>
+  
+  <div class="detail">
+    <strong>Nombre:</strong>
+    <%= @persona.nombre %>
+  </div>
+
+  <div class="detail">
+    <strong>Apellido:</strong>
+    <%= @persona.apellido %>
+  </div>
+
+  <div class="detail">
+    <strong>Fecha de Nacimiento:</strong>
+    <%= @persona.fecha_nacimiento %>
+  </div>
+
+  <div class="detail">
+    <strong>DNI:</strong>
+    <%= @persona.nro_dni %>
+  </div>
+
+  <div class="detail">
+    <strong>Edad:</strong>
+    <%= @persona.edad %> años
+  </div>
+
+  <div class="actions">
+    <%= link_to 'Editar', edit_persona_path(@persona), class: "button" %>
+    <%= link_to 'Volver a Personas', personas_path, class: "button" %>
+    <%= button_to "Eliminar esta Persona", @persona, method: :delete, class: "button destroy-button", data: { confirm: 'Are you sure?' }  %>
+  </div>
+</div>

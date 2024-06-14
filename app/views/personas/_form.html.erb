@@ -1,0 +1,38 @@
+<%= form_with(model: persona) do |form| %>
+  <% if persona.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(persona.errors.count, "error") %>(es) impidieron que se guardara esta persona:</h2>
+
+      <ul>
+        <% persona.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nombre, style: "display: block" %>
+    <%= form.text_field :nombre, class: "hov" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :apellido, style: "display: block" %>
+    <%= form.text_field :apellido, class: "hov"  %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fecha_nacimiento, style: "display: block" %>
+    <%= form.date_field :fecha_nacimiento, class: "hov"  %>
+  </div>
+
+  <div class="field">
+    <%= form.label :nro_dni, style: "display: block" %>
+    <%= form.number_field :nro_dni, class: "hov"  %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit 'Crear Persona'%>
+    <%= link_to 'Volver a Personas', personas_path, class: "button" %>
+  </div>
+<% end %>
