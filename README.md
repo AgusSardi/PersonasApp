@@ -1,6 +1,7 @@
 # PersonasApp
 # Desafío de Ruby on Rails: Sistema de Gestión de Personas
 
+A continuación puede verse un video demostrativo:
 [![Demo Video](https://img.youtube.com/vi/mjL2k2vFUT8/0.jpg)](https://www.youtube.com/watch?v=mjL2k2vFUT8)
 
 Este proyecto es un desafío de Ruby on Rails que implementa un sistema de gestión de personas. El sistema permite listar personas, editar detalles de personas y ver detalles de cada persona.
