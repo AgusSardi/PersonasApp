@@ -15,7 +15,7 @@ class Persona < ApplicationRecord
     end
   end
 
-  def edad
+  def edad #metodo de instancia
     # Si no se ingresa la fecha de nacimiento retorna directamente nil
     return unless fecha_nacimiento
 
@@ -32,7 +32,7 @@ class Persona < ApplicationRecord
     # Es decir que se ajusta la diferencia inicial de años según si ya cumplió o no en el año actual
   end
 
-  def self.promedio_edad
+  def self.promedio_edad # metodo de clase
     return 0 if count == 0
     all.map(&:edad).compact.sum / count # Resultado = entero
   end
