@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :personas
+  resources :personas # Genera automáticamente las rutas para el controlador (index, show, new, create, edit, update, destroy)
+  # get "personas/new", to: "personas#new", as: :new_persona
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
